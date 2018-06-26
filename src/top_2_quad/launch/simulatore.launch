@@ -1,0 +1,6 @@
+<launch>
+  <group ns="simulatore">
+    <node pkg="simulatore_drone" name="drone" type="drone_2"/>
+    <node pkg="simulatore_drone" name="targets" type="targets"/>
+  </group>
+</launch>  
